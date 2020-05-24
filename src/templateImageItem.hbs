@@ -1,0 +1,23 @@
+{{#each this}}
+<li class="imageBox">
+    <div class="photo-card">
+        <img src="{{largeImageURL}}" data-largesrc="{{largeImageURL}}" alt="photo" width="340" height="220">
+        <div class="stats">
+            <p class="stats-item"><span class="material-icons">
+                    visibility
+                </span>{{views}}</p>
+            <p class="stats-item"> <span class="material-icons">
+                    thumb_up
+                </span>
+                {{likes}}</p>
+            <p class="stats-item"><span class="material-icons">
+                    comment
+                </span>{{comments}} </p>
+            <p class="stats-item"> <span class="material-icons">
+                    cloud_download
+                </span>{{downloads}}</p>
+
+        </div>
+    </div>
+</li>
+{{/each}}
