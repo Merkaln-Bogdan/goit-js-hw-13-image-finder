@@ -23,7 +23,7 @@
     "handlebars": "^4.7.6",
     "handlebars-loader": "^1.7.1",
     "html-webpack-plugin": "^4.3.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "lodash-loader": "^2.0.0",
     "lodash-webpack-plugin": "^0.11.5",
     "mini-css-extract-plugin": "^0.9.0",
